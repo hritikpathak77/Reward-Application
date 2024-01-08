@@ -2,9 +2,6 @@
 
 ## Getting Started
 
-- Java version 11 or greater is required.
-- Recommend installing the latest version of Maven.
-
 ## Rewards Program Calculator - Spring Boot
 This Spring Boot application provides a RESTful endpoint to calculate reward points earned by customers based on their purchase transactions over three months. The reward points are awarded according to the rules specified by the retailer.
 
