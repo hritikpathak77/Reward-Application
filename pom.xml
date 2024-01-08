@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.1</version>
+		<version>2.6.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.charter</groupId>
-	<artifactId>RewardApplication</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>tch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RewardApplication</name>
+	<name>tch</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -68,4 +68,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

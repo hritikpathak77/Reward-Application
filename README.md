@@ -1,32 +1,18 @@
-Rewards Program Calculator - Spring Boot
-This Spring Boot application provides a RESTful endpoint to calculate reward points earned by customers based on their purchase transactions over three months. The reward points are awarded according to the rules specified by the retailer.
+# Charter communications - Programming Assignment
 
-Problem Statement
-A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction.
+## Getting Started
 
-For example, for a $120 purchase:
+- Java version 11 or greater is required.
+- Recommend installing latest version of Maven.
 
-$50 qualifies for 1 point
-$100 qualifies for 2 points
-Total reward points: 1x$50 + 2x$20 = 90 points.
+1. Clone this repo
+2. Change directory: `cd executables/`
+3. Add execute permission: `sudo chmod 755 <*.sh>`
+4. Start local: `./start.sh`
+5. Execute base: `./base.sh`
 
-Technologies Used
-Java
-Spring Boot
-Maven
+## Author
+**Hritik Pathak**
 
-How to Run the Application
-Clone the repository:
-
-git clone https://github.com/hritikpathak77/Reward-Application.git
-
-Navigate to the project directory:
-cd Reward-Application
-
-Build the application:
-mvn clean install
-
-Run the Spring Boot application:
-java -jar target/Reward-Application-1.0.0.jar
-
-The application will start on http://localhost:8080.
+## Testing
+- Unit testing is covered using junit and mockito but api testing end to end can be done using postman or any other client.
